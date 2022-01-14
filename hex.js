@@ -4,7 +4,8 @@
  const btn = document.getElementById('btn');
  const color = document.querySelector('.color');
 
- btn.addEventListener('click', function(){
+//  Adds a click event to the btn element which means whenever you click on the btn element in the page, the following function takes place.
+btn.addEventListener('click', function(){
     let hexColor = '#';
     const randomNumber = getRandomNumber();
     for(let i = 0; i<6; i++){
