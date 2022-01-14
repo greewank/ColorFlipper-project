@@ -1,5 +1,5 @@
 const colors = ["green", "blue", "rgba(133,122,200)", 
-"#f15025", "rgba(120, 157, 220, 0.5)"];
+"#f15025", "rgba(120, 157, 220, 0.5)", rgba(196, 158, 103, 0.747);];
 
 const button = document.getElementById("btn");
 const color = document.querySelector(".color");
