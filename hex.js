@@ -7,6 +7,8 @@
 //  Adds a click event to the btn element which means whenever you click on the btn element in the page, the following function takes place.
 btn.addEventListener('click', function(){
     let hexColor = '#';
+//     The const randomNumber retuns a random number which is in the length of the hex array. Then, hexColor generates a random element 
+// from the hex array which is then fed to color.textContent.
     const randomNumber = getRandomNumber();
     for(let i = 0; i<6; i++){
         hexColor += hex[getRandomNumber()];
